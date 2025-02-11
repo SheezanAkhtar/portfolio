@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Link from 'next/link';
 import Typewriter from 'typewriter-effect';
 import develpAnimation from '../../development.json';
@@ -8,9 +8,6 @@ import whatsAppIcon from '../../whatsAppIcon.json';
 import linkedInIcon from '../../linkedIn.json';
 import Lottie from 'lottie-react';
 import Footer from './components/footer';
-import { link } from 'fs';
-
-<link> </link>
 
 export default function Home() {
   return (
@@ -44,10 +41,10 @@ export default function Home() {
             <Link href={"https://github.com/SheezanAkhtar"}>
               <Lottie className='iconClass' animationData={githubIcon} />
             </Link>
-            <Link href={"https://facebook.com/Sheezan Akhtar"}>
+            <Link href={"https://facebook.com/share/15iLaTCx8H"}>
               <Lottie className='iconClass' animationData={facebookIcon} />
             </Link>
-            <Link href={"https://wa.me/03164402447"}>
+            <Link href={"https://wa.me/qr/WYXH45V6ZCXXK1"}>
               <Lottie className='iconClass' animationData={whatsAppIcon} />
             </Link>
             <Link href={"https://www.linkedin.com/in/Sheezan-Akhtar/"}>
